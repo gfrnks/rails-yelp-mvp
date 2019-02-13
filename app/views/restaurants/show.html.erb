@@ -2,7 +2,11 @@
 <p><%= @restaurant.address %></p>
 <p><%= @restaurant.phone_number %></p>
 <p><%= @restaurant.category %></p>
+<p>-----------------------------------------</p>
+<p><%= @reviews %></p>
+<p>-----------------------------------------</p>
 <p>
   <%= link_to("Back", restaurants_path) %> |
-  <%= link_to("Delete", restaurant_path(@restaurant), method: :delete) %>
+  <%= link_to("Delete", restaurant_path(@restaurant), method: :delete) %> |
+  <%= link_to("Review", new_restaurant_review_path(@restaurant)) %>
 </p>

@@ -7,4 +7,3 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Restaurant.create( { name: "Kazu", address: "St Laurent", phone_number: "666-666-6666", category: "japanese" } )
-
