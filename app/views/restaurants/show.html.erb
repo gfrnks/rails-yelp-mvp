@@ -1,0 +1,8 @@
+<p><%= @restaurant.name %></p>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.phone_number %></p>
+<p><%= @restaurant.category %></p>
+<p>
+  <%= link_to("Back", restaurants_path) %> |
+  <%= link_to("Delete", restaurant_path(@restaurant), method: :delete) %>
+</p>
